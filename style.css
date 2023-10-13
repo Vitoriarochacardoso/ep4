@@ -1,1 +1,114 @@
+body{
+    display: grid;/*grid*/
+     grid-template-areas: 
+    "cab cab cab cab"
+    "bra pri pri pri"
+    "rod rod rod rod";
+    grid-auto-columns: 200px auto;
+    grid-auto-rows: 100px auto 100px;
+}
+@media only screen and (max-width: 820px){/*para o aside sumir quando mexe*/
+    body{
+        grid-template-areas:
+        "cab"
+        "pri"
+        "rod";
+        grid-auto-columns: 1fr;
+        grid-template-rows:100px auto 100px;
+    }
+}
+header{
+    grid-area: cab;
+    text-align: center;
+    background-image:linear-gradient(to right,rgba(200, 202, 67, 0.4) , rgba(245, 151, 27, 0.4));/* mudar a cor em forma de degrade*/
+    display: flex;
+    position: relative;
+}
+header li{ 
+    display: inline;
+    margin: 0 0 0 190px;
+}
+header a{
+    text-decoration:none; 
+    font-size: 2.4rem;/*tamanho dos botoes*/
+    color: rgba(2, 2, 2, 0.5);
+    transition: 1s;
+}
+header a:hover{
+    font-size: 1.1rem;
+    color: white; 
+    border: solid rgb(0, 0, 0); 
+    background: black; 
+}
 
+header, aside, main, footer{
+    background-color:transparet;
+}
+aside{
+    grid-area: bra;
+    background-color:transparent;
+    border: 30px blueviolet;
+}
+main{
+    grid-area: pri;
+    background-color: blue;
+    
+}
+footer{
+    grid-area: rod;
+    background-image:linear-gradient(to right,rgba(200, 202, 67, 0.4) , rgba(245, 151, 27, 0.4));/* mudar a cor em forma de degrade*/
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+footer li{
+    display: inline;
+    margin: 0 0 0 100px;
+}
+footer a{
+    text-decoration:none; 
+    font-size: 2.4rem;/*tamanho dos botoes*/
+    color: rgba(2, 2, 2, 0.5);
+    transition: 1s;
+}
+footer a:hover{
+    font-size: 1.1rem;
+    color: white; 
+    border: solid rgb(0, 0, 0); 
+    background: black; 
+}
+.fundo1{
+    background-image:url(imagem/fundo1.jpg);
+
+
+}
+.logo{
+    width: 10%;
+    border-radius: 10px;
+    transition: 10s;
+}
+.logo:hover{
+    width: 15%;
+    border-radius: 20%;
+    transition: 3s;
+}
+main{
+    text-align: justify; 
+    background-color:transparent;
+    margin: 2rem; 
+    padding: 2rem; 
+    color: rgb(0, 0, 0);
+    font-size:larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+main li{
+    display: inline;
+}
+main nav{
+    top: 560px;
+    right: 190px;
+    position: absolute;
+    margin-right: 10px;
+    margin: 5px;
+}
