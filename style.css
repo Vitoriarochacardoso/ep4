@@ -112,3 +112,9 @@ main nav{
     margin-right: 10px;
     margin: 5px;
 }
+.correto{
+    color: green;
+}
+.errada{
+    color: red;
+}
