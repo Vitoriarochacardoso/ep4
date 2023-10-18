@@ -12,70 +12,70 @@ function botaozinho() {
 
     if (respostaUsuario1 && respostaUsuario2 && respostaUsuario3 && respostaUsuario4 && respostaUsuario5 && respostaUsuario6 && respostaUsuario7 && respostaUsuario8 && respostaUsuario9 && respostaUsuario10) {
         if(respostaUsuario1.value === "correto"){
-            document.getElementById("resultado_1").innerHTML = "acertou!!";
+            document.getElementById("resultado_1").innerHTML = "Acertou!!";
         }
         else{
             document.getElementById("errado1").innerHTML = "Errou!!";
         }
         
         if(respostaUsuario2.value === "correto"){
-            document.getElementById("resultado_2").innerHTML = "acertou!!";
+            document.getElementById("resultado_2").innerHTML = "Acertou!!";
         
         }
         else{
             document.getElementById("errado2").innerHTML = "Errou!!";
         }
         if(respostaUsuario3.value === "correto"){
-        document.getElementById("resultado_3").innerHTML = "acertou!!";
+        document.getElementById("resultado_3").innerHTML = "Acertou!!";
         }
         else{
         document.getElementById("errado3").innerHTML = "Errou!!";
         }
         
         if(respostaUsuario4.value === "correto"){
-        document.getElementById("resultado_4").innerHTML = "acertou!!";
+        document.getElementById("resultado_4").innerHTML = "Acertou!!";
         }
         else{
         document.getElementById("errado4").innerHTML = "Errou!!" ;
         }
 
         if(respostaUsuario5.value === "correto"){
-        document.getElementById("resultado_5").innerHTML = "acertou!!";
+        document.getElementById("resultado_5").innerHTML = "Acertou!!";
         }
         else{
         document.getElementById("errado5").innerHTML = "Errou!!";
         }
 
         if(respostaUsuario6.value === "correto"){
-        document.getElementById("resultado_6").innerHTML = "acertou!!";
+        document.getElementById("resultado_6").innerHTML = "Acertou!!";
         }
         else{
         document.getElementById("errado6").innerHTML = "Errou!!";
         }
 
         if(respostaUsuario7.value === "correto"){
-        document.getElementById("resultado_7").innerHTML = "acertou!!";
+        document.getElementById("resultado_7").innerHTML = "Acertou!!";
         }
         else{
         document.getElementById("errado7").innerHTML = "Errou!!";
         }
 
         if(respostaUsuario8.value === "correto"){
-        document.getElementById("resultado_8").innerHTML = "acertou!!";
+        document.getElementById("resultado_8").innerHTML = "Acertou!!";
         }
         else{
         document.getElementById("errado8").innerHTML = "Errou!!" ;
         }
 
         if(respostaUsuario9.value === "correto"){
-        document.getElementById("resultado_9").innerHTML = "acertou!!";
+        document.getElementById("resultado_9").innerHTML = "Acertou!!";
         }
         else{
         document.getElementById("errado9").innerHTML = "Errou!!";
         }
 
         if(respostaUsuario10.value === "correto"){
-            document.getElementById("resultado_10").innerHTML = "acertou!!";
+            document.getElementById("resultado_10").innerHTML = "Acertou!!";
             }
 
         else{

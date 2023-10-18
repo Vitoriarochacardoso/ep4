@@ -37,7 +37,7 @@ header a{
 header a:hover{
     font-size: 2.4rem;
     color: white; 
-    background-color: black;
+    background-color: rgb(170, 160, 30);
 }
 
 header, aside, main, footer{
@@ -68,23 +68,26 @@ footer a{
 }
 footer a:hover{
     font-size: 2.4rem;
-    color: white; 
-    border: solid rgb(0, 0, 0); 
-    background: black; 
+    color: white;  
+    background-color: rgb(170, 160, 30);
+ 
 }
 .fundo1{
-    background-image:url(imagem/fundo1.jpg);
+    background-image:url(imagens/fundo1.jpg);
 
 
+}
+.fundo2{
+    background-image: url(imagens/fundo2.jpg);
 }
 .logo{
     width: 10%;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: 10s;
 }
 .logo:hover{
     width: 10%;
-    border-radius: 20%;
+    border-radius: 40%;
     transition: 3s;
 }
 main{
