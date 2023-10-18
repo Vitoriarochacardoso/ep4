@@ -1,10 +1,10 @@
 body{
     display: grid;/*grid*/
      grid-template-areas: 
-    "cab cab cab cab"
-    "bra pri pri pri"
-    "rod rod rod rod";
-    grid-auto-columns: 200px auto;
+    "cab"
+    "pri"
+    "rod";
+    grid-auto-columns: auto;
     grid-auto-rows: 100px auto 100px;
 }
 @media only screen and (max-width: 820px){/*para o aside sumir quando mexe*/
@@ -35,20 +35,15 @@ header a{
     transition: 1s;
 }
 header a:hover{
-    font-size: 1.1rem;
+    font-size: 2.4rem;
     color: white; 
-    border: solid rgb(0, 0, 0); 
-    background: black; 
+    background-color: black;
 }
 
 header, aside, main, footer{
     background-color:transparet;
 }
-aside{
-    grid-area: bra;
-    background-color:transparent;
-    border: 30px blueviolet;
-}
+
 main{
     grid-area: pri;
     background-color: blue;
@@ -72,7 +67,7 @@ footer a{
     transition: 1s;
 }
 footer a:hover{
-    font-size: 1.1rem;
+    font-size: 2.4rem;
     color: white; 
     border: solid rgb(0, 0, 0); 
     background: black; 
@@ -88,7 +83,7 @@ footer a:hover{
     transition: 10s;
 }
 .logo:hover{
-    width: 15%;
+    width: 10%;
     border-radius: 20%;
     transition: 3s;
 }
