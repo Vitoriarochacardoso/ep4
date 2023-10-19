@@ -73,12 +73,12 @@ footer a:hover{
  
 }
 .fundo1{
-    background-image:url(imagens/fundo1.jpg);
+    background-image:url(imagem/fundo1.jpg);
 
 
 }
 .fundo2{
-    background-image: url(imagens/fundo2.jpg);
+    background-image: url(imagem/fundo2.jpg);
 }
 .logo{
     width: 10%;
@@ -115,4 +115,8 @@ main nav{
 }
 .errada{
     color: red;
+}
+.botao{
+    border-radius: 30%;
+    box-shadow: 3px 6px 11px black;
 }
