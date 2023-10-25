@@ -6,6 +6,7 @@ body{
     "rod";
     grid-auto-columns: auto;
     grid-auto-rows: 100px auto 100px;
+    
 }
 @media only screen and (max-width: 820px){/*para o aside sumir quando mexe*/
     body{
@@ -46,7 +47,6 @@ header, aside, main, footer{
 
 main{
     grid-area: pri;
-    background-color: blue;
     
 }
 footer{
@@ -73,12 +73,13 @@ footer a:hover{
  
 }
 .fundo1{
-    background-image:url(imagem/fundo1.jpg);
+    background-image:url(imagens/fundo1.jpg);/*imagem de fundo*/
 
 
 }
 .fundo2{
-    background-image: url(imagem/fundo2.jpg);
+    background-image: url(imagens/fundo2.jpg);/*imagem de fundo*/
+
 }
 .logo{
     width: 10%;
@@ -87,7 +88,7 @@ footer a:hover{
 }
 .logo:hover{
     width: 10%;
-    border-radius: 40%;
+    border-radius: 40%;/*borda da logo*/
     transition: 3s;
 }
 main{
@@ -99,6 +100,8 @@ main{
     font-size:larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
+    background-color: rgba(255, 255, 255, 0.7);/*deixar o fundo branco*/
+
 }
 main li{
     display: inline;
@@ -111,12 +114,19 @@ main nav{
     margin: 5px;
 }
 .correto{
-    color: green;
+    color: green;/*cor da resposta certa*/
 }
 .errada{
-    color: red;
+    color: red;/*cor da resposta errada*/
 }
 .botao{
     border-radius: 30%;
     box-shadow: 3px 6px 11px black;
+}
+.letra{
+    font-style: italic;/*estilo da letra*/
+}
+.texto{
+    margin-left: 15%;
+    margin-right: 15%;
 }
